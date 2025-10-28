@@ -1,0 +1,69 @@
+# file pattern
+*.csv
+*.pkl
+*.pt
+*.pyc
+*.zip
+*.npy
+**/*.ckpt
+**/*.pyc
+**/**/**.pyc
+.env
+.vscode
+nohup.out
+
+
+# report/results/experiments/metrics/*
+report/results/experiments/models/*
+experiments/experiments 
+
+*.pth
+
+# folder
+log
+test
+model/trained_models
+data/test_data
+lightning_logs
+test_data
+dataset/*
+dataset/*/*
+ref
+ref/*
+**/*/ref/*
+build
+
+
+# cache folder
+**/**/__pycache__
+**/__pycache__/**
+__pycache__/
+**/__pycache__
+
+
+# single file
+pydoc-markdown.yml
+environment.yml
+#
+#
+utils/__pycache__/file.cpython-38.pyc
+utils/__pycache__/__init__.cpython-38.pyc
+
+# macOS
+.DS_Store
+*/.DS_Store
+*/**/.DS_Store
+
+# models
+**/**.onnx
+
+# folders
+doc 
+tests
+test
+report
+.comet*
+web
+tasks
+simulation
+experiment/exp_settings/*

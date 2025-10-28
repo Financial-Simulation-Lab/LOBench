@@ -1,0 +1,28 @@
+{
+    "data": {
+        "dataset": {
+            "name": "FIDataset",
+            "dataset_path": "dataset/csv_data/FIdataset",
+            "fi_data_dir": "dataset/csv_data/BenchmarkDatasets",
+            "seed": 1234,
+            "represented_data_path": "dataset/real_data/represented_data"
+        },
+        "dataloader": {
+            "name": "FIDataModule",
+            "num_workers": 4,
+            "batch_size": 256,
+            "is_shuffle_train": true,
+            "seq_len": 100
+        },
+        "represented_data_path": "dataset/real_data/represented"
+    },
+    "comet": {
+        "api_key": "your_comet_api_key",
+        "workspace": "brooklyn-0",
+        "project_name": "simlob",
+        "save_dir": "dataset/exp_data/run_result"
+    },
+    "trainer": {
+        "max_epochs": 100
+    }
+}

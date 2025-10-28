@@ -1,0 +1,42 @@
+{
+    "data":{
+        "dataset":{
+            "dataset_path": "dataset/real_data/sz000001-level10.csv"
+        }
+    },
+    "comet": {
+        "experiment_name": "[A5000]reconstruction_itransformer_all_ashare_sz000001:v1.0.0"
+    },
+    "model": {
+        "name": "iTransformer",
+        "task_name": "reconstruction",
+        "decoder_name": "transformer_decoder",
+        "d_model": 128,
+        "e_layers": 3,
+        "enc_in": 40,
+        "d_ff": 256,
+        "dropout": 0.1,
+        "optimizer_name": "Adam",
+        "lr": 0.0001,
+        "log_freq": 50,
+        "seq_len": 100,
+        "unified_d": 256,
+        "freq": "s",
+        "output_attention": false,
+        "embed": "timeF",
+        "factor": 1,
+        "n_heads": 8,
+        "activation": "gelu",
+        "metrics": [
+            "all_loss",
+            "reg_loss",
+            "mae_loss",
+            "mse_loss",           
+            "price_loss",
+            "volume_loss",
+            "weighted_price_loss",
+            "weighted_volume_loss",
+            "weighted_mse_loss"
+        ]
+    }
+}

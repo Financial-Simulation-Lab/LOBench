@@ -1,0 +1,44 @@
+{
+    "username": "your_username",
+    "folders": {
+        "base": "dataset",
+        "raw": "dataset/simu_data/raw_csv",
+        "meta": "dataset/meta_data",
+        "real": "dataset/real_data",
+        "log": "dataset/log_data",
+        "xml": "dataset/xml_data",
+        "train": "dataset/train_data",
+        "csv": "dataset/simu_data/csv_out",
+        "coef": "dataset/coef_data",
+        "experiment": "dataset/exp_data",
+        "exp_settings": "experiment/exp_settings",
+        "exp_report": "output/report_output"
+    },
+    "hyperparameter_accuracy": 10,
+    "trunk_length": 100,
+    "random_seed": 1234,
+    "coef_random_seed": 2345,
+    "simulation_database": {
+        "url": "mongodb://your_mongodb_username:your_mongodb_password@your_mongodb_host:27017/?directConnection=true&authSource=exp_result",
+        "name": "simulation",
+        "collection": "raw_data"
+    },
+    "exp_result_database": {
+        "url": "mongodb://your_mongodb_username:your_mongodb_password@your_mongodb_host:27017/?directConnection=true&authSource=exp_result",
+        "name": "exp_result",
+        "collection": "benchmark"
+    },
+    "max_cpu_workers": 40,
+    "logs": {
+        "generator": "dataset/log_data/generator_log.log",
+        "result": "dataset/log_data/result.log",
+        "default": "dataset/log_data/default.log",
+        "archive": "dataset/log_data/archived",
+        "database": "dataset/log_data/database.log",
+        "experiment": "dataset/log_data/experiment.log"
+    },
+    "comet": {
+        "workspace": "your_workspace",
+        "project": "financial-calibration"
+    }
+}

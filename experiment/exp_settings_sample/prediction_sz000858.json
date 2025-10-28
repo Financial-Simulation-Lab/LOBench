@@ -1,0 +1,19 @@
+{
+    "comet": {
+        "experiment_name": "[A5000]prediction_cnn2_ashare_sz000858:v1.0.0"
+    },
+    "model": {
+        "name": "CNN2",
+        "task_name": "classification",
+        "d_model": 128,
+        "num_class": 3,
+        "unified_d": 256,
+        "dropout": 0.1,
+        "optimizer_name": "Adam",
+        "lr": 0.0001,
+        "log_freq": 50,
+        "metrics": [
+            "cross_entropy_loss"
+        ]
+    }
+}

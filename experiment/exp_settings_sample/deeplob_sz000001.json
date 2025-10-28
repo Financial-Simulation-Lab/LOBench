@@ -1,0 +1,23 @@
+{
+    "comet": {
+        "experiment_name": "[A5000]imputation_deeplob_mse_freeze_ashare_sz000001:v1.0.0"
+    },
+    "model": {
+        "name": "DeepLOB",
+        "ckpt_path": "report/results/experiments/models/[A5000]reconstruction_deeplob_all_ashare_sz000001:v1.0.0.ckpt",
+        "task_name": "imputation",
+        "d_model": 256,
+        "seq_len": 100,
+        "enc_in": 40,
+        "unified_d": 256,
+        "c_out":4000,
+        "mask_rate": 0.25,
+        "optimizer_name": "Adam",
+        "log_freq": 50,
+        "lr": 0.0001,
+        "metrics": [
+            "mse_loss",
+            "masked_mse_loss"
+        ]
+    }
+}
