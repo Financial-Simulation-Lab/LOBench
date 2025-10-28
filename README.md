@@ -1,11 +1,14 @@
 # LOBench: A Benchmark for Limit Order Book Representation Learning
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20TBD%202025-blue)](https://ieeexplore.ieee.org/)
+[![Pages](https://img.shields.io/badge/Pages-Web%20Overview-orange)](https://pages.muiao.com/pages/lobench/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **LOBench** is a standardized benchmark for **Limit Order Book (LOB)** representation learning, proposed in the IEEE _Transactions on Big Data (2025)_ paper:
 
 > **Muyao Zhong**, Yushi Lin, and Peng Yang\*, _“Representation Learning of Limit Order Book: A Comprehensive Study and Benchmarking,”_ IEEE Transactions on Big Data, Vol. 14, No. 8, August 2025.
+
+Explore a concise overview of the benchmark and its contributions on the [project webpage](https://pages.muiao.com/pages/lobench/).
 
 ---
 
