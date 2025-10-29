@@ -1,8 +1,8 @@
 # LOBench: A Benchmark for Limit Order Book Representation Learning
 
 [![Datasets on Hugging Face](https://img.shields.io/badge/datasets-huggingface-orange?logo=huggingface)](https://huggingface.co/datasets/mythezone/LOBench-A-share-processed)
-[![Paper (arXiv)](https://img.shields.io/badge/arXiv-2505.02139-blue)](https://arxiv.org/abs/2505.02139)
-[![Pages](https://img.shields.io/badge/Pages-WebIntro-orange)](https://pages.muiao.com/pages/lobench/)
+[![Paper (arXiv)](https://img.shields.io/badge/arXiv-2505.02139-red?logo=arxiv)](https://arxiv.org/abs/2505.02139)
+[![Pages](https://img.shields.io/badge/Pages-WebIntro-blue?logo=gitlab)](https://pages.muiao.com/pages/lobench/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **LOBench** is a standardized benchmark for **Limit Order Book (LOB)** representation learning:
