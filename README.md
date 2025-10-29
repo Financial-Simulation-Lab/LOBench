@@ -111,7 +111,7 @@ If you wish to learn more about the **SimLOB** model introduced and compared in 
 > _“SimLOB: Learning Representations of Limited Order Book for Financial Market Simulation.”_ [arXiv:2406.19396](https://arxiv.org/abs/2406.19396)
 
 ```bibtex
-@misc{li2025simloblearningrepresentationslimited,
+@misc{li2025simlob,
       title={SimLOB: Learning Representations of Limited Order Book for Financial Market Simulation},
       author={Yuanzhe Li and Yue Wu and Muyao Zhong and Shengcai Liu and Peng Yang},
       year={2025},
@@ -130,7 +130,7 @@ For more insights into downstream applications of LOB representation learning, s
 > _“Detecting Multilevel Manipulation from Limit Order Book via Cascaded Contrastive Representation Learning.”_ [arXiv:2508.17086](https://arxiv.org/abs/2508.17086)
 
 ```bibtex
-@misc{lin2025detectingmultilevelmanipulationlimit,
+@misc{lin@2025detectlob,
       title={Detecting Multilevel Manipulation from Limit Order Book via Cascaded Contrastive Representation Learning},
       author={Yushi Lin and Peng Yang},
       eprint={2508.17086},
@@ -144,7 +144,7 @@ For more insights into downstream applications of LOB representation learning, s
 If you use this benchmark or codebase in your research, please cite:
 
 ```bibtex
-@misc{zhong2025representationlearninglimitorder,
+@misc{zhong@2025lobench,
       title={Representation Learning of Limit Order Book: A Comprehensive Study and Benchmarking},
       author={Muyao Zhong and Yushi Lin and Peng Yang},
       year={2025},
