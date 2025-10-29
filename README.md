@@ -141,7 +141,7 @@ For more insights into downstream applications of LOB representation learning, s
 
 ### Citation
 
-If you use this benchmark or codebase in your research, please cite:
+Welcome to cite:
 
 ```bibtex
 @misc{zhong@2025lobench,
